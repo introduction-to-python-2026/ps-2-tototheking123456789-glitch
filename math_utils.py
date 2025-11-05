@@ -35,9 +35,8 @@ def find_mean_std(num1, num2, num3):
   return((((num1-mean)**2 +(num2-mean)**2 + (num3-mean)**2)/3)**0.5) 
 
 
-print(find_mean(num1, num2, num3))
-
-print(find_mean_std(num1, num2, num3))
+find_mean(num1, num2, num3)
+find_mean_std(num1, num2, num3)
 
 
 
