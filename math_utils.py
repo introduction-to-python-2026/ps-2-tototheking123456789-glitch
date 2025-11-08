@@ -8,7 +8,7 @@ def find_max_number(num1, num2, num3):
         return num3
 maxnum = find_max_number(num1, num2, num3)
 
-פprint(maxnum)
+print(maxnum)
 
 def find_mean(num1, num2, num3):
     return (num1 + num2 + num3) / 3
