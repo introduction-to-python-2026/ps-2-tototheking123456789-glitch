@@ -1,6 +1,4 @@
-num1 = int(input("Enter a number: "))
-num2 = int(input("Enter another number: "))
-num3 = int(input("Enter a third number: "))
+
 
 
 def find_max_number(num1, num2, num3):
