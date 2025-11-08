@@ -10,7 +10,7 @@ def find_max_number(num1, num2, num3):
 
 maxnum = find_max_number(num1, num2, num3)
 
-print(maxnum)
+maxnum
 def find_mean(num1, num2, num3):
       return (num1 + num2 + num3) / 3
     
@@ -18,4 +18,4 @@ def find_mean_std(num1, num2, num3):
       mean = find_mean(num1, num2, num3)
       std = (((num1 - mean) ** 2 + (num2 - mean) ** 2 + (num3 - mean) ** 2) / 3) ** 0.5
       return mean, std
-print(find_mean_std(num1, num2, num3))
+find_mean_std(num1, num2, num3)
