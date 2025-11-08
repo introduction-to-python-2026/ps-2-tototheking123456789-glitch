@@ -19,3 +19,6 @@ def find_mean_std(num1, num2, num3):
       std = (((num1 - mean) ** 2 + (num2 - mean) ** 2 + (num3 - mean) ** 2) / 3) ** 0.5
       return std
 
+print("Maximum:", find_max_number(num1, num2, num3))
+print("Mean:", find_mean(num1, num2, num3))
+print("Standard Deviation:", find_mean_std(num1, num2, num3))
